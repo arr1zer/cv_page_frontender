@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>CV page</title>
+</head>
+<body>
+    <header class="header">
+        <img src="/assets/image.png" alt="my photo" class="avatar">
+        <h1 class="header__title">Kirill Bo | CV</h1>
+        <h3 class="header__subtitle">Frontend developer</h3>
+    </header>
+
+    <main>
+        <section class="skills">
+            <h3>Skills</h3>
+            <details>
+                <summary>Skills list: </summary>
+
+                <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Typescript</li>
+                </ol>
+            </details>
+        </section>
+
+        <article class="article">
+            <h4>Short article about me</h4>
+
+            <p>
+                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Даже о выйти родного текстами единственное деревни там, пор строчка скатился. Парадигматическая текст деревни маленькая решила составитель напоивший текста по всей ее языкового, бросил большого, пояс жаренные. Свой до первую всемогущая возвращайся проектах то ее! Строчка все рот выйти которой предупреждал.
+
+            </p>
+        </article>
+        <section class="gallery">
+            <h3>Gallery</h3>
+            <img src="https://placehold.co/250x250" alt="placehold image">
+            <img src="https://placehold.co/250x250" alt="placehold image">
+            <img src="https://placehold.co/250x250" alt="placehold image">
+        </section>
+
+        <hr class="separator">
+        
+        <section class="hobbies">
+            <h4>My hobbies: </h4>
+
+            <details>
+                <summary>Hobbies</summary>
+
+                <ol>
+                    <li>Skiing</li>
+                    <li>Video editing</li>
+                    <li>Audio books</li>
+                </ol>
+            </details>
+        </section>
+
+        <hr class="separator">
+
+        <section class="ed">
+            <table class="ed__table">
+                <thead>
+                    <tr>
+                        <th>School/University</th>
+                        <th>Profession</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>IT School 1</td>
+                        <td>Angular Dev</td>
+                        <td>2019</td>
+                    </tr>
+                    <tr>
+                        <td>IT School 2</td>
+                        <td>React Dev</td>
+                        <td>2020</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="quote">
+            <blockquote>
+                Действия - это единственный путь к успеху
+            </blockquote>
+        </section>
+
+        <section class="interaction">
+            <form action="https://ya.ru" class="form" method="get" target="_blank">
+
+                <fieldset>
+                    <legend>Required fields: </legend>
+
+                    
+                        <label for="firstNameID">First Name: </label>
+                        <input type="text" name="firstName" id="firstNameID" required class="form__control">
+                    
+                        <label for="lastNameID">Last Name: </label>
+                        <input type="text" name="lastName" id="lastNameID" required class="form__control">
+                    
+                        <label for="emailID">Email: </label>
+                    <input type="email" name="email" id="emailID" required class="form__control">
+                    
+                </fieldset>
+
+                <textarea name="" id="" cols="30" rows="7" class="form__control"></textarea>
+
+                <button type="submit" class="form__submit">Submit</button>
+            </form>
+
+        </section>
+
+    </main>
+
+    <hr class="separator">
+
+    <footer>
+        <address>
+            <a href="mailto:it@mail.ru" class="contact__link">it@mail.ru</a>
+            <br><br>
+            <a href="tel:+1234567890" class="contact__link">+1234567890</a>
+        </address>
+    </footer>
+
+</body>
+</html>
